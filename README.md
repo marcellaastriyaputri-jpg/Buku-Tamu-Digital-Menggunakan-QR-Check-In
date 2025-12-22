@@ -8,4 +8,16 @@ Mode Tamu 📝Isi Buku Tamu: Input Nama dan Alamat Validasi input (tidak boleh) 
 📑 Laporan Kunjungan Menampilkan data kunjungan dalam bentuk tabel Filter laporan berdasarkan: Tanggal mulai Tanggal akhir Grafik kunjungan harian Ekspor laporan ke file Excel
 ℹ️ Halaman Tentang Menampilkan informasi singkat aplikasi: Teknologi yang digunakan Fitur utama Tujuan aplikasi
 # Struktur Folder
-buku-tamu-digital/ │── app.py # File utama Streamlit │── persyaratan.txt # Daftar perpustakaan Python │── README.md # Dokumentasi project │ ├── utils.py # Fungsi pendukung (CRUD, QR, laporan) │ ├── data/ #data kepemilikan │ ├─ tamu.csv # Data tamu │ └── kunjungan.csv # Log kunjungan │ ├── qr/ # Folder QR Code │ ├── aset/ # Screenshot aplikasi (jika ada)
+│
+├── main.py # File utama aplikasi Streamlit
+├── utils.py # Fungsi bantu (QR, simpan data, backup)
+├── style.css # Styling tampilan aplikasi
+├── requirements.txt # Daftar library Python
+│
+├── data/ # Data utama aplikasi
+│ ├── tamu.csv
+│ └── kunjungan.csv
+│
+├── qr/ # Penyimpanan QR Code
+├── backup/ # Backup otomatis data
+└── README.md
