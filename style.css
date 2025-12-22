@@ -1,0 +1,105 @@
+st.markdown(
+    """
+    <style>
+
+    /* ===== BACKGROUND ===== */
+    html, body {
+        background-color: #f2f2f2 !important;
+        color: #222 !important;
+        font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    /* ===== SIDEBAR ===== */
+    section[data-testid="stSidebar"] {
+        background-color: #e9e9e9 !important;
+        border-right: 1px solid #cfcfcf;
+    }
+
+    /* ===== FORM CARD ===== */
+    form {
+        background-color: #ffffff !important;
+        padding: 25px !important;
+        border-radius: 16px !important;
+        box-shadow: 0 8px 22px rgba(0,0,0,0.08) !important;
+    }
+
+    /* ===== INPUT ===== */
+    input, textarea {
+        background-color: #f8f8f8 !important;
+        color: #222 !important;
+        border: 1px solid #cfcfcf !important;
+        border-radius: 10px !important;
+        padding: 10px !important;
+    }
+
+    /* ===== BUTTON ===== */
+    button {
+        background: linear-gradient(135deg, #6e6e6e, #4f4f4f) !important;
+        color: #ffffff !important;
+        border: none !important;
+        border-radius: 14px !important;
+        padding: 10px 24px !important;
+        font-weight: 600 !important;
+        box-shadow: 0 6px 16px rgba(0,0,0,0.18) !important;
+    }
+
+    button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 22px rgba(0,0,0,0.28) !important;
+    }
+
+    /* ===== METRIC ===== */
+    div[data-testid="metric-container"] {
+        background-color: #ffffff !important;
+        border-radius: 14px !important;
+        padding: 18px !important;
+        box-shadow: 0 6px 16px rgba(0,0,0,0.08) !important;
+    }
+
+    /* ===== QR CODE FRAME ===== */
+    img {
+        display: block;
+        margin: 30px auto;
+        padding: 22px;
+        background-color: #ffffff;
+        border-radius: 18px;
+        border: 4px solid #6b6b6b;
+        outline: 3px dashed #bdbdbd;
+        outline-offset: -12px;
+        box-shadow: 0 12px 28px rgba(0,0,0,0.18);
+    }
+
+    /* ===== CAMERA SCANNER ===== */
+    video {
+        display: block;
+        margin: 30px auto;
+        padding: 18px;
+        background-color: #ffffff;
+        border-radius: 18px;
+        border: 5px solid #4f4f4f;
+        outline: 3px solid #b0b0b0;
+        outline-offset: -14px;
+        box-shadow: 0 14px 30px rgba(0,0,0,0.22);
+    }
+
+    /* ===== SCAN LINE EFFECT ===== */
+    video {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0,0,0,0) 45%,
+            rgba(120,120,120,0.6) 50%,
+            rgba(0,0,0,0) 55%
+        );
+        background-size: 100% 200%;
+        animation: scan 2.5s linear infinite;
+    }
+
+    @keyframes scan {
+        from { background-position: 0 0; }
+        to { background-position: 0 100%; }
+    }
+
+    </style>
+    """,
+    unsafe_allow_html=True
+)
