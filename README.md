@@ -21,4 +21,4 @@ STRUKTUR FOLDER: buku-tamu-digital/ │── app.py # File utama Streamlit │�
 PENJELASAN FITUR CRUD+QR SCAN: Mode Tamu 📝Isi Buku Tamu: Input Nama dan Alamat Validasi input (tidak boleh) Data disimpan ke file CSV Sistem membuat ID tamu otomatis QR Code dibuat otomatis untuk setiap tamu QR Code dapat diunduh (download) 📷 Scan QR Code Scan QR Code untuk: Mencatat menghadiri tamu waktu kunjungan otomatis Data disimpan ke file kunjungan kosong.csv 🔐 Mode Admin 📊 Dashboard Seperti: Total tamu Total kunjungan kosong hari ini Grafik kunjungan berdasarkan jam (real-time) 📋 Manajemen Data Tamu (CRUD) Read → Menampilkan seluruh data tamu Update → Mengubah nama dan alamat tamu berdasarkan ID Delete → Menghapus data tamu berdasarkan ID 📑 Laporan Kunjungan Menampilkan data kunjungan dalam bentuk tabel Filter laporan berdasarkan: Tanggal mulai Tanggal akhir Grafik kunjungan harian Ekspor laporan ke file Excel ℹ️ Halaman Tentang Menampilkan informasi singkat aplikasi: Teknologi yang digunakan Fitur utama Tujuan aplikasi
 
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cf59417b-5e89-422d-917d-90099ab5123a" />
+
