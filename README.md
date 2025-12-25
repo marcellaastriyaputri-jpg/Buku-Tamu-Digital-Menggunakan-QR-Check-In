@@ -21,3 +21,8 @@ Mode Tamu 📝Isi Buku Tamu: Input Nama dan Alamat Validasi input (tidak boleh) 
 ├── qr/ # Penyimpanan QR Code
 ├── backup/ # Backup otomatis data
 └── README.md
+screnshot buku tamu digital
+![dasboard](https://github.com/user-attachments/assets/d1c2d0ff-66b1-436d-b00e-43590cb1e9c9)
+![sqan QR](https://github.com/user-attachments/assets/8f25a29a-7b4d-4154-91ed-d3022e8326f2)
+
+
