@@ -1,7 +1,0 @@
-streamlit
-pandas
-numpy
-qrcode
-Pillow
-pyzbar
-openpyxl
