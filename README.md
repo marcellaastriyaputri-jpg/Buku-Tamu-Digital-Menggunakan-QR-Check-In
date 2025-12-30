@@ -22,6 +22,11 @@ Mode Tamu 📝Isi Buku Tamu: Input Nama dan Alamat Validasi input (tidak boleh) 
 ├── backup/ # Backup otomatis data
 └── README.md
 screnshot buku tamu digital
+![WhatsApp Image 2025-12-29 at 09 47 32 (1)](https://github.com/user-attachments/assets/0264b35f-488f-44ae-bd32-f740124c9f75)
+![WhatsApp Image 2025-12-30 at 21 56 44 (1)](https://github.com/user-attachments/assets/12cee174-3b80-4b0c-bea8-a5a6f9d89c5c)
+
+
+
 
 
 
